@@ -1,0 +1,27 @@
+﻿@model CoffylabMVCProject.Entities.Gallery
+@{
+	ViewData["Title"] = "AddNewImage";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h3 class="page-title"> Add Image Page </h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<form method="post">
+						<label>Image Url</label>
+						<br /><br />
+						<textarea type="text" asp-for="ImageUrl" class="form-control" rows="2"></textarea>
+						<br />
+						<button class="btn btn-gradient-info btn-sm" style="font-size: 12px">Save</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

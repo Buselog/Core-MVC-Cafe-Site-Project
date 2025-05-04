@@ -1,0 +1,34 @@
+﻿@model CoffylabMVCProject.Entities.Category
+@{
+    ViewData["Title"] = "UpdateCategory";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h3 class="page-title"> Update Category Page </h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<form method="post">
+						<input type="hidden" asp-for="CategoryId" class="form-control" />
+
+						<label>Category Name</label>
+						<br /><br />
+						<input type="text" asp-for="CategoryName" class="form-control"/>
+						<span asp-validation-for="CategoryName" class="text-danger"></span>
+						<br />
+						<button class="btn btn-gradient-info btn-sm" style="font-size: 12px">Save Changes</button>
+
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+@*  asp-for: modeldeki bir property'e bağlamayı sağlayan bir tag helper'dır. name="CategoryName" yapar  *@
+@*  form gönderildiğinde ASP.NET Core, Model Binding ile veriyi CategoryName özelliğine bağlar. *@

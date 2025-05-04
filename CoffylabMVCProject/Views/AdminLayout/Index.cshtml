@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Partial -->
+@await Component.InvokeAsync("_AdminLayoutHeadComponentPartial")
+
+<!--End Head Partial -->
+<body>
+	<div class="container-scroller">
+
+		<!-- Navbar Partial -->
+
+		@await Component.InvokeAsync("_AdminLayoutNavbarComponentPartial")
+
+		<!-- End Navbar Partial -->
+
+		<div class="container-fluid page-body-wrapper">
+
+
+			<!-- Sidebar Partial -->
+
+			@await Component.InvokeAsync("_AdminLayoutSidebarComponentPartial")
+
+			<!-- End Sidebar Partial -->
+
+
+			<div class="main-panel">
+				@RenderBody()
+
+
+				<!-- Footer Partial -->
+
+				@await Component.InvokeAsync("_AdminLayoutFooterComponentPartial")
+
+				<!-- End Footer Partial -->
+
+			</div>
+
+			<!-- main-panel ends -->
+		</div>
+		<!-- page-body-wrapper ends -->
+	</div>
+	<!-- container-scroller -->
+
+
+	<!-- Script Partial -->
+
+	@await Component.InvokeAsync("_AdminLayoutScriptComponentPartial")
+
+	<!-- End Script Partial -->
+
+</body>
+</html>

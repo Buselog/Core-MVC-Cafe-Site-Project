@@ -1,0 +1,53 @@
+﻿@model CoffylabMVCProject.Entities.Meet
+@{
+    ViewData["Title"] = "UpdateAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h3 class="page-title"> Update About Page </h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<form method="post">
+						<input type="hidden" asp-for="MeetId" class="form-control" />
+
+						<label>Title</label>
+						<br /><br />
+						<input type="text" asp-for="Title" class="form-control" />
+						<span asp-validation-for="Title" class="text-danger"></span>
+						<br />
+						<label>Subtitle</label>
+						<br /><br />
+						<input type="text" asp-for="Subtitle" class="form-control" />
+						<span asp-validation-for="Subtitle" class="text-danger"></span>
+						<br />
+						<label>Short Description</label>
+						<br /><br />
+						<input type="text" asp-for="ShortDescription" class="form-control" />
+						<span asp-validation-for="ShortDescription" class="text-danger"></span>
+						<br />
+						<label>Full Description</label>
+						<br /><br />
+						<textarea asp-for="FullDescription" class="form-control" rows="3"></textarea>
+						<span asp-validation-for="FullDescription"></span>
+						<br />
+						<label>Video Url</label>
+						<br /><br />
+						<input type="text" asp-for="VideoUrl" class="form-control" />
+						<span asp-validation-for="VideoUrl" class="text-danger"></span>
+						<br />
+						<button class="btn btn-gradient-info btn-sm" style="font-size: 12px">Save Changes</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

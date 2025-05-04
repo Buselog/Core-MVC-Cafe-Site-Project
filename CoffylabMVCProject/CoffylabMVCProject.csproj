@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\adminpanel\.DS_Store" />
+    <None Include="wwwroot\coffylab\Coffee - Doc\.DS_Store" />
+    <None Include="wwwroot\coffylab\Coffee - Doc\css\.DS_Store" />
+    <None Include="wwwroot\coffylab\Coffee - Doc\fonts\.DS_Store" />
+    <None Include="wwwroot\coffylab\Coffee - Doc\img\.DS_Store" />
+    <None Include="wwwroot\coffylab\Coffee - Doc\js\.DS_Store" />
+    <None Include="wwwroot\coffylab\Coffee - Doc\syntax-highlighter\.DS_Store" />
+    <None Include="wwwroot\coffylab\css\.DS_Store" />
+    <None Include="wwwroot\coffylab\img\.DS_Store" />
+    <None Include="wwwroot\coffylab\js\.DS_Store" />
+    <None Include="wwwroot\coffylab\scss\.DS_Store" />
+    <None Include="wwwroot\coffylab\scss\bootstrap\.DS_Store" />
+    <None Include="wwwroot\coffylab\scss\theme\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+</Project>

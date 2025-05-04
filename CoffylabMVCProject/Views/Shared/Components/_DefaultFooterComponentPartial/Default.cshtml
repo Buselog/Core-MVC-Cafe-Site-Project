@@ -1,0 +1,22 @@
+﻿<footer class="footer-area section-gap" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-6 col-sm-6">
+
+				<div class="single-footer-widget">
+					<h6>Let's get together soon!</h6>
+					<p>
+						We are waiting for you for a unique coffee experience.
+					</p>
+					<p class="footer-text">
+						&copy;<script>document.write(new Date().getFullYear());</script> <a href="/CoffylabLayout/Index/" target="_blank">Coffylab</a>
+					</p>
+				</div>
+			</div>
+
+			@await Component.InvokeAsync("_DefaultSubscribeComponentPartial")
+
+			@await Component.InvokeAsync("_DefaultSocialMediaComponentPartial")
+		</div>
+	</div>
+</footer>

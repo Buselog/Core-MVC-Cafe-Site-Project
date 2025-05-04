@@ -1,0 +1,48 @@
+﻿@model CoffylabMVCProject.Entities.Header
+@{
+	ViewData["Title"] = "UpdateAddress";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h3 class="page-title"> Update Address Page </h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<form method="post">
+						<input type="hidden" asp-for="HeaderId" class="form-control" />
+
+						<label>Open Hours Weekdays</label>
+						<br /><br />
+						<input type="text" asp-for="OpenHoursWeekdays" class="form-control" />
+						<span asp-validation-for="OpenHoursWeekdays" class="text-danger"></span>
+						<br />
+						<label>Open Hour Weekends</label>
+						<br /><br />
+						<input type="text" asp-for="OpenHoursWeekends" class="form-control" />
+						<span asp-validation-for="OpenHoursWeekends" class="text-danger"></span>
+						<br />
+						<label>Phone Number</label>
+						<br /><br />
+						<input type="text" asp-for="PhoneNumber" class="form-control" />
+						<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+						<br />
+						<label>Location</label>
+						<br /><br />
+						<input type="text" asp-for="Location" class="form-control" />
+						<span asp-validation-for="Location" class="text-danger"></span>
+						<br />
+						<button class="btn btn-gradient-info btn-sm" style="font-size: 12px">Save Changes</button>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+

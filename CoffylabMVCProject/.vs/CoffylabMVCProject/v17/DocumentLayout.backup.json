@@ -1,0 +1,334 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\views\\about\\updateabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\views\\about\\updateabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:controllers\\socialmediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|c:\\users\\buse\\source\\repos\\coffylabmvcproject\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F8803C7C-58BB-47CD-A2D4-2D56567E1317}|CoffylabMVCProject.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 259,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T10:08:09.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:17:10.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:16:26.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:15:17.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:14:53.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubscribeController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\SubscribeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SubscribeController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\SubscribeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SubscribeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:14:14.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SubscribeController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\SubscribeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubscribeController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\SubscribeController.cs",
+              "RelativeToolTip": "Controllers\\SubscribeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:13:51.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SocialMediaController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\SocialMediaController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SocialMediaController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\SocialMediaController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SocialMediaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:13:14.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SocialMediaController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\SocialMediaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SocialMediaController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\SocialMediaController.cs",
+              "RelativeToolTip": "Controllers\\SocialMediaController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:12:48.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Profile\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Profile\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T09:12:38.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T09:12:35.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:05:46.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:05:24.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:03:58.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T09:03:31.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateAbout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\About\\UpdateAbout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\About\\UpdateAbout.cshtml",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Areas\\Admin\\Views\\About\\UpdateAbout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\About\\UpdateAbout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T08:52:52.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T08:46:59.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\BUSE\\source\\repos\\CoffylabMVCProject\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-04T08:46:49.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

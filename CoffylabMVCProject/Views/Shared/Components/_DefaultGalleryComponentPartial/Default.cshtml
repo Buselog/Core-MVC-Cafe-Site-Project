@@ -1,0 +1,43 @@
+﻿@{
+	var FirstTwoImages = ViewBag.FirstTwoImages as List<CoffylabMVCProject.Entities.Gallery>;
+	var LastTwoImages = ViewBag.LastTwoImages as List<CoffylabMVCProject.Entities.Gallery>;
+}
+
+
+
+<section class="gallery-area section-gap" id="gallery">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content pb-60 col-lg-10">
+				<div class="title text-center">
+					<h1 class="mb-10">We are just a sip away from your most beautiful conversations...</h1>
+					<p>We captured your best moments in a few frames</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				@foreach (var item in FirstTwoImages)
+				{
+					<a href=" @item.ImageUrl" class="img-pop-home">
+						<img class="img-fluid" src="@item.ImageUrl" alt="">
+					</a>
+				}
+			</div>
+			<div class="col-lg-8">
+				<a href="@ViewBag.ThirdImage" class="img-pop-home">
+					<img class="img-fluid" src="@ViewBag.ThirdImage" alt="">
+				</a>
+				<div class="row">
+					@foreach(var item in LastTwoImages){
+						<div class="col-lg-6">
+							<a href="@item.ImageUrl" class="img-pop-home">
+								<img class="img-fluid" src="@item.ImageUrl" alt="">
+							</a>
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

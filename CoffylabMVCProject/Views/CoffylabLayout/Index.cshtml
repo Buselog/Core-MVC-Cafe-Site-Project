@@ -1,0 +1,63 @@
+﻿@{
+	Layout = null;
+}
+
+<html>
+
+@await Component.InvokeAsync("_DefaultHeadComponentPartial")
+
+<body>
+
+	<header id="header" id="home">
+
+		@await Component.InvokeAsync("_DefaultHeaderComponentPartial")
+
+		@await Component.InvokeAsync("_DefaultNavbarComponentPartial")
+
+	</header><!-- #header -->
+	<!-- start banner Area -->
+	@await Component.InvokeAsync("_DefaultFeatureComponentPartial")
+	<!-- End banner Area -->
+	<!-- Start video-sec Area -->
+	@await Component.InvokeAsync("_DefaultVideoComponentPartial")
+
+	<!-- End video-sec Area -->
+	<!-- Start menu Area -->
+	@await Component.InvokeAsync("_DefaultMenuComponentPartial")
+	<!-- End menu Area -->
+	<!-- Start gallery Area -->
+	@await Component.InvokeAsync("_DefaultGalleryComponentPartial")
+	<!-- End gallery Area -->
+	<!-- Start review Area -->
+	<section class="review-area section-gap" id="review">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-60 col-lg-10">
+					<div class="title text-center">
+						<h1 class="mb-10" style="color: floralwhite">Through the eyes of our customers</h1>
+						<p style="color: floralwhite">Coffee experiences through the eyes of our customers :)</p>
+					</div>
+				</div>
+			</div>
+
+
+			@await Component.InvokeAsync("_DefaultTestimonialComponentPartial")
+
+
+			@await Component.InvokeAsync("_DefaultStatisticComponentPartial")
+
+		</div>
+	</section>
+	<!-- End review Area -->
+	<!-- start footer Area -->
+	@await Component.InvokeAsync("_DefaultFooterComponentPartial")
+	<!-- End footer Area -->
+	@await Component.InvokeAsync("_DefaultScriptComponentPartial")
+
+
+</body>
+</html>
+
+
+
+

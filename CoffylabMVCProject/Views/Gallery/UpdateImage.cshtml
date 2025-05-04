@@ -1,0 +1,32 @@
+﻿@model CoffylabMVCProject.Entities.Gallery
+
+@{
+    ViewData["Title"] = "UpdateImage";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h3 class="page-title"> Update Image Page </h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<form method="post">
+						<input type="hidden" asp-for="GalleryId" class="form-control" />
+						<label>Image Url</label>
+						<br /><br />
+						<textarea asp-for="ImageUrl" class="form-control" rows="2"></textarea>
+						<br />
+						<button class="btn btn-gradient-info btn-sm" style="font-size: 12px">Save Changes</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+

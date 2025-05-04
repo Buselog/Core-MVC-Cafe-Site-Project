@@ -1,0 +1,44 @@
+﻿@{
+	var isAdmin = Context.Session.GetString("adminId") != null;
+	var returnUrl = isAdmin ? Url.Action("Index", "Dashboard") : Url.Action("Index", "CoffylabLayout");
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	@* <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ *@
+	<title>404 Error</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Muli:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="/errorpage/css/font-awesome.min.css" />
+	<link type="text/css" rel="stylesheet" href="/errorpage/css/style.css" />
+
+
+</head>
+
+<body>
+
+	<div id="notfound">
+		<div class="notfound-bg"></div>
+		<div class="notfound">
+			<div class="notfound-404">
+				<h1>404</h1>
+			</div>
+			<h2>Page Not Found</h2>
+			<a href="@returnUrl" class="btn btn-primary">Back to @(isAdmin ? "Dashboard" : "Home Page")	</a>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
+

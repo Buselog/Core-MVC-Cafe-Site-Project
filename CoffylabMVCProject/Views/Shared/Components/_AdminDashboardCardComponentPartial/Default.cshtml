@@ -1,0 +1,41 @@
+﻿
+<div class="row">
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-danger card-img-holder text-white">
+            <div class="card-body">
+                <img src="/adminpanel/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Coffee Count <i class="mdi mdi-chart-line mdi-24px float-end"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.CoffeeCount</h2>
+                <h6 class="card-text">Last Added Product: @ViewBag.LastAddedProduct</h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-info card-img-holder text-white">
+            <div class="card-body">
+                <img src="/adminpanel/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Price Average <i class="mdi mdi-bookmark-outline mdi-24px float-end"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.CoffeePriceAverage</h2>
+                <h6 class="card-text">Last Product Price: @ViewBag.LastAddedProductPrice</h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-success card-img-holder text-white">
+            <div class="card-body">
+                <img src="/adminpanel/assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <h4 class="font-weight-normal mb-3">
+                    Waiting Subscribe Request <i class="mdi mdi-diamond mdi-24px float-end"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.WaitingSubscribesRequestCount</h2>
+                <h6 class="card-text">Approved: @ViewBag.ApprovedSubscribeCount</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,52 @@
+﻿@model List<CoffylabMVCProject.Entities.Header>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int Id = 0;
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h6 class="page-title"> Address Table </h6>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<table class="table table-bordered table-hover">
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<th>Open Hours Weekdays</th>
+									<td>@item.OpenHoursWeekdays</td>
+								</tr>
+								<tr>
+									<th>Open Hours Weekends</th>
+									<td>@item.OpenHoursWeekends</td>
+								</tr>
+								<tr>
+									<th>Phone Number</th>
+									<td>@item.PhoneNumber</td>
+								</tr>
+								<tr>
+									<th>Location</th>
+									<td>@item.Location</td>
+								</tr>
+
+								Id = item.HeaderId;
+							}
+						</tbody>
+					</table>
+					<br /><br />
+					<a href="/Address/UpdateAddress/@Id" class="btn btn-gradient-danger btn-large" style="font-size: 14px"> <i class="fa fa-pencil fa-sm me-1"></i> Update</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+

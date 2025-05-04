@@ -1,0 +1,50 @@
+﻿@model List<CoffylabMVCProject.Entities.Meet>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h6 class="page-title"> About Table </h6>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<table class="table table-bordered table-hover">
+						<thead>
+							<tr>
+								<th>Title</th>
+								<th>Subtitle</th>
+								<th>Short Description</th>
+								<th>Full Description</th>
+								<th>Video Url</th>
+								<th>Operations</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td>@item.Title</td>
+									<td>@item.Subtitle.Substring(0,10)...</td>
+									<td>@item.ShortDescription.Substring(0,10)...</td>
+									<td>@item.FullDescription.Substring(0,10)...</td>
+									<td><a href="@item.VideoUrl" target="_blank">@item.VideoUrl.Substring(0,10)...</a></td>
+									<td align="center">
+										<a href="/About/UpdateAbout/@item.MeetId" class="btn btn-gradient-info btn-sm" style="font-size: 12px"><i class="fa fa-edit fa-sm me-1"></i>Update</a>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+

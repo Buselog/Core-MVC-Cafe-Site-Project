@@ -1,0 +1,70 @@
+﻿@model CoffylabMVCProject.Entities.Subscribe
+
+<div class="col-lg-5 col-md-6 col-sm-6">
+	<div class="single-footer-widget">
+		<h6>Newsletter</h6>
+		<p>Subscribe to our newsletter to be informed about our discounts and new content!</p>
+
+		<form id="subscribeForm" asp-controller="CoffylabLayout" asp-action="SubscribeRequest" method="post" class="form-inline">
+			<input asp-for="Email" id="emailInput" type="email" class="form-control" placeholder="Enter Email"
+				   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email'" />
+			@* <button type="button" class="click-btn btn btn-default" onclick="validateAndSubmit()"> *@
+			<button type="submit" class="click-btn btn btn-default" onclick="return validateAndSubmit(event)">
+
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</button>
+			<br /><br />
+			<span asp-validation-for="Email" class="text-danger"></span>
+		</form>
+	</div>
+</div>
+
+
+<script>
+	function validateAndSubmit(event) {
+		event.preventDefault(); // Formun varsayılan submit davranışını durdur
+
+		const emailField = document.getElementById("emailInput");
+
+		if (!emailField.checkValidity()) {
+			Swal.fire({
+				title: "Invalid Email!",
+				text: "Please enter a valid email address.",
+				icon: "error",
+				confirmButtonText: "OK"
+			});
+			return false; // Submit işlemi yapılmasın
+		} else {
+			// Formu bul ve submit et
+			const form = document.getElementById("subscribeForm");
+			form.submit(); // Formu gönder
+		}
+	}
+
+	// Sayfa yüklendikten sonra URL parametrelerini kontrol et
+	window.addEventListener('DOMContentLoaded', () => {
+		const params = new URLSearchParams(window.location.search);
+		if (params.get("success")?.toLowerCase() === "true") {
+			Swal.fire({
+				title: "Success!",
+				text: "Your subscription has been received.",
+				icon: "success",
+				confirmButtonText: "OK"
+				}).then(() => {
+		// URL'den parametreyi temizle
+		const url = new URL(window.location);
+		url.searchParams.delete("success");
+		window.history.replaceState({}, document.title, url.toString());
+	});
+		}
+
+	});
+</script>
+
+
+
+
+
+
+
+

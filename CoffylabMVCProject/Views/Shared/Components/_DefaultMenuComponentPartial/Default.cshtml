@@ -1,0 +1,56 @@
+﻿@model List<CoffylabMVCProject.Entities.Product>
+@using CoffylabMVCProject.Entities
+
+<!-- Başlık -->
+
+<section class="menu-area section-gap" id="menu">
+	<div class="container">
+
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content pb-60 col-lg-10">
+				<div class="title text-center">
+					<h1 class="mb-10" style="color: antiquewhite">What kind of Coffee we serve for you</h1>
+					<p style="color: floralwhite">Who are in extremely love with eco friendly system.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Kategori Butonları -->
+		<div class="text-center mb-4">
+			<ul id="menu-filters" class="list-inline">
+				<li class="btn btn-outline-light m-1 filter-active" data-filter="*">All</li>
+				@foreach (var category in (List<Category>)ViewBag.Categories)
+				{
+					<li class="btn btn-outline-light m-1" data-filter=".filter-@category.CategoryId">
+						@category.CategoryName
+					</li>
+				}
+			</ul>
+		</div>
+
+		<!-- Ürün Kartları -->
+		<div class="row">
+			@foreach (var item in Model)
+			{
+				<div class="col-lg-4">
+					<div class="single-menu">
+						<p style="color: floralwhite">@item.Category?.CategoryName</p>
+						<div class="title-div justify-content-between d-flex">
+							<h4 style="color: antiquewhite">@item.ProductName</h4>
+							@* <p class="price float-right">₺@item.ProductPrice</p> *@
+						</div>
+						<p style="color: lightgray">@item.Description</p>
+						<div class="right-side">
+							<img src="@item.ImageUrl" alt="@item.ProductName" />
+							<p class="price">₺@item.ProductPrice</p>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+
+</section>
+
+
+
+

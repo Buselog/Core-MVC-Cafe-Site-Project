@@ -1,0 +1,40 @@
+﻿@model CoffylabMVCProject.Entities.SocialMedia
+@{
+    ViewData["Title"] = "UpdateSocialMedia";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content-wrapper">
+	<div class="page-header">
+		<h3 class="page-title">Update Social Media Page</h3>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 grid-margin stretch-card">
+			<div class="card">
+				<div class="card-body">
+					<form method="post">
+						<input type="hidden" asp-for="SocialMediaId" class="form-control" />
+
+						<label>Name</label>
+						<br /><br />
+						<input type="text" asp-for="Name" class="form-control" />
+						<span asp-validation-for="Name" class="text-danger"></span>
+						<br />
+						<label>Icon</label>
+						<br /><br />
+						<input type="text" asp-for="Icon" class="form-control" />
+						<span asp-validation-for="Icon" class="text-danger"></span>
+						<br />
+						<label>Link</label>
+						<br /><br />
+						<input type="text" asp-for="Link" class="form-control" />
+						<span asp-validation-for="Link" class="text-danger"></span>
+						<br />
+						<button class="btn btn-gradient-info btn-sm" style="font-size: 12px">Save Changes</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
