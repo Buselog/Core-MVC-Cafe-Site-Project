@@ -57,35 +57,44 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 
 ### Buselog Portfolio Site
 
-###### 🏠 Home Page
+###### 🏠 Home Section
+
+<img src="https://github.com/user-attachments/assets/a4cbc3ec-e3ac-4310-87e6-775f0d4a7c71" width:700>
+
+
+###### 🪪 About Section
+
+<img src="https://github.com/user-attachments/assets/79230091-0308-43d7-b427-010793230be1" width:700>
+
+###### 📋 Menu Section
+
+<img src="https://github.com/user-attachments/assets/1445c45e-02f3-4c15-a129-24ada026edfb" width:700>
+
+###### 🔎 Gallery Section
+
+<img src="https://github.com/user-attachments/assets/d9634e83-1747-453f-8ab8-b952b8d9e4da" width:700>
+
+###### 👤 Testimonial Section
+
+<img src="https://github.com/user-attachments/assets/8c38a444-deb5-49bb-bad6-b151ace6394f" width:700>
+
+###### ✉️ Footer Section
+
+<img src="https://github.com/user-attachments/assets/06817c04-f677-448c-8b51-2407c03c1dc6" width:700>
+
+
+-----
+
+
+### Admin Panel Section
+
+
+
+###### 🏠 Login Page
 
 <img src="" width:700>
 
-###### 🏠 Home Page
-
-<img src="" width:700>
-
-###### 🏠 Home Page
-
-<img src="" width:700>
-
-###### 🏠 Home Page
-
-<img src="" width:700>
-
-###### 🏠 Home Page
-
-<img src="" width:700>
-
-###### 🏠 Home Page
-
-<img src="" width:700>
-
-###### 🏠 Home Page
-
-<img src="" width:700>
-
-###### 🏠 Home Page
+###### 🏠 Login Page (With Validation)
 
 <img src="" width:700>
     
