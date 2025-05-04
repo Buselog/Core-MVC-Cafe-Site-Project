@@ -9,7 +9,7 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 
 ###### 🌟 ASP.NET Core MVC
 
-   - ViewComponent kullanımı ve responsive tasarım prensipleriyle geliştirilen, modern ve ölçeklenebilir bir proje geliştirimi.
+ - ViewComponent kullanımı ve responsive tasarım prensipleriyle geliştirilen, modern ve ölçeklenebilir bir proje geliştirimi.
 
 ###### 🌟 Entity Framework Core ile Veritabanı İşlemleri( SQL Server - Code First Yaklaşım)
 
@@ -145,7 +145,7 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 
 <img src="https://github.com/user-attachments/assets/ce83f028-4b4a-4714-b085-20c30813f078" width:700>
 
-###### 📧 Subscribe Page
+###### 📧 Subscribe Page (The request is confirmed with the Update button.)
 
 <img src="https://github.com/user-attachments/assets/650d3eb3-6a06-48e8-a3c2-142e2692d8a9" width:700>
 
