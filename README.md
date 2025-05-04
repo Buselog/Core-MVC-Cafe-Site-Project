@@ -9,7 +9,7 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 
 ###### 🌟 ASP.NET Core MVC
 
- - ViewComponent kullanımı ve responsive tasarım prensipleriyle geliştirilen, modern ve ölçeklenebilir bir proje geliştirimi.
+   - ViewComponent kullanımı ve responsive tasarım prensipleriyle geliştirilen, modern ve ölçeklenebilir bir proje geliştirimi.
 
 ###### 🌟 Entity Framework Core ile Veritabanı İşlemleri( SQL Server - Code First Yaklaşım)
 
@@ -33,7 +33,7 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 
 ###### 🌟 SweetAlert2 İle Şık ve Modern Bildirimler
 
-   - Sitede abonelik için mail adresini giren kullanıcıya isteğinin gönderilip gönderilmediğine dair modern alert içeriği eklenmiştir.
+    - Sitede abonelik için mail adresini giren kullanıcıya isteğinin gönderilip gönderilmediğine dair modern alert içeriği eklenmiştir.
 
 ###### 🌟 Custom 404 Error Page
     - Her iki panel için de eklenmiş, modern 404 hata sayfası sistemi entegre edilmiştir.    
