@@ -55,7 +55,7 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 ## ☄️ Projeye Genel Bakış
 
 
-### Buselog Portfolio Site
+### Coffylab Cafe Site
 
 ###### 🏠 Home Section
 
