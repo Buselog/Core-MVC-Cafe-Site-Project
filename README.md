@@ -89,6 +89,13 @@ Kafe sitesi verilerinin yönetimi için kullanıcı dostu bir admin paneli de pr
 
 <img src="https://github.com/user-attachments/assets/cb799667-3f73-44b9-b1ca-98d00ed6cac0" width:700>
 
+###### ❓ 404 Error Page 
+
+<img src="https://github.com/user-attachments/assets/043377af-0f59-477d-bb30-8196ff5b0c5d" width:700>
+
+
+
+
 
 -----
 
